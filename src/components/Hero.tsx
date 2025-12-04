@@ -95,6 +95,12 @@ const Hero = () => {
           >
             Get in Touch
           </a>
+          <a
+            href="#contact"
+            className="px-8 py-3 rounded-lg border border-primary text-primary font-semibold hover:bg-primary/10 transition-all duration-300"
+          >
+            CV
+          </a>
         </div>
 
         {/* Scroll indicator */}
