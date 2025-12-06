@@ -29,7 +29,7 @@ const HeroSection = () => {
       <div className="relative z-10 text-center max-w-3xl mx-auto">
         {/* Name */}
         <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 animate-fade-in">
-          Harsens Lal.
+          Harbans Lal.
         </h1>
 
         {/* Tagline */}
