@@ -1,15 +1,15 @@
 import { ExternalLink, Github, Folder } from "lucide-react";
 
 const featuredProjects = [
-  // {
-  //   title: "Nekasu",
-  //   description:
-  //     "A comprehensive user authentication system featuring Google OAuth and Facebook OAuth integration. Built with React frontend and Appwrite backend, with special attention to cross-browser compatibility ensuring seamless login on Safari and Apple devices.",
-  //   tech: ["React", "Node.js", "Express", "Appwrite", "OAuth"],
-  //   github: "https://github.com",
-  //   live: "https://harbansportfolio.netlify.app/",
-  //   image: null,
-  // },
+  {
+    title: "Favicon Generator",
+    description:
+      "Create and export high-quality favicons in various styles and formats. Generate up to 1000 icons dynamically and download them instantly.",
+    tech: ["React", "Node.js", "Typescript"],
+    github: "https://github.com/Harbans-Lal/favicon-generator",
+    live: "https://favicon-factory.netlify.app/",
+    image: null,
+  },
 ];
 
 const otherProjects = [
@@ -18,8 +18,8 @@ const otherProjects = [
     description:
       "A personal portfolio website built with React and Tailwind CSS, featuring smooth animations and responsive design.",
     tech: ["React", "Tailwind CSS", "TypeScript"],
-    github: "https://github.com",
-    live: "https://harbansportfolio.netlify.app/",
+    github: "https://github.com/Harbans-Lal/ai-portfolio",
+    live: "https://harbans-portfolio.netlify.app/",
   },
   {
     title: "Rental Service App",
@@ -64,7 +64,7 @@ const Projects = () => {
                     <div className="absolute inset-0 bg-primary/10 group-hover:bg-transparent transition-colors duration-300" />
                     <div className="text-center p-8">
                       <span className="font-mono text-6xl text-primary/30 font-bold">
-                        N
+                        FG
                       </span>
                       <p className="font-mono text-primary mt-4">
                         Featured Project
