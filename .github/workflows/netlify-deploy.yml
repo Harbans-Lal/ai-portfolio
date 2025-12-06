@@ -37,4 +37,4 @@ jobs:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         run: |
-          npx netlify-cli@latest deploy --dir=/build --site="$NETLIFY_SITE_ID" --auth="$NETLIFY_AUTH_TOKEN" --prod --message "Deployed from GitHub Actions ($GITHUB_SHA)"
+          npx netlify-cli@latest deploy --dir=/dist --site="$NETLIFY_SITE_ID" --auth="$NETLIFY_AUTH_TOKEN" --prod --message "Deployed from GitHub Actions ($GITHUB_SHA)"
